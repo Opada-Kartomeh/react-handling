@@ -24,7 +24,10 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.8.0",
+    "bootstrap": "^4.5.3",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-toastify": "^6.1.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -49,5 +52,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-toastify": "^6.1.0"
+  }
 }
