@@ -12,7 +12,6 @@ npm install --save react-handling
 ```
 
 ## Usage
-export defulte App
 ```jsx
 import React, { useState } from 'react'
 
@@ -81,7 +80,7 @@ const App=()=>{
     type="error"// you can use success type or warning type
     message="Password Error"
     position="top-center" // default bottom-center you can use top-left top-rigth bottom-left bottom-rigth
-     >
+     />
      )
   }
   export default App
@@ -90,7 +89,7 @@ const App=()=>{
 ```
 
 ```jsx
-import React from 'react'
+import React,{useState} from 'react'
 
 import { MessageHandling } from 'react-handling'
 import 'react-handling/dist/index.css'
