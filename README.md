@@ -12,7 +12,7 @@ npm install --save react-handling
 ```
 
 ## Usage
-
+export defulte App
 ```jsx
 import React, { useState } from 'react'
 
@@ -36,6 +36,7 @@ const App = () => {
   )
 }
 // the same way for WarningMessage and SuccessMessage
+export default App
 ```
 
 ```jsx
@@ -65,6 +66,7 @@ const App = () => {
     />
   )
 }
+export default App
 ```
 
 ```jsx
@@ -80,8 +82,10 @@ const App=()=>{
     message="Password Error"
     position="top-center" // default bottom-center you can use top-left top-rigth bottom-left bottom-rigth
      >
+     )
   }
-  )
+  export default App
+  
 
 ```
 
@@ -105,6 +109,7 @@ const App = () => {
      </MessageHandling>
   )
 }
+export default App
 ```
 
 ## License
